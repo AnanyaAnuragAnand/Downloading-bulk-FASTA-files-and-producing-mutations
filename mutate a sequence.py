@@ -13,4 +13,3 @@ def replace_char_at_index(org_str, index, replacement):
     return new_str
 new_seq = replace_char_at_index(seq, new_pos, res_new)
 print(new_seq)
-
