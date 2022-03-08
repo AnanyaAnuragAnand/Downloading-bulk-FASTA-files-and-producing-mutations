@@ -51,3 +51,8 @@ for name in name_list:
     f.write(new_seq)
     f.close()
     
+    
+    
+    
+    
+    
