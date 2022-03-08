@@ -9,3 +9,4 @@ handle=Entrez.efetch(db="nucleotide",id=input_id,rettype="fasta")
 record=SeqIO.read(handle,"fasta")
 outputname=f"C:/Users/anany/Desktop/{input_id}.fasta"
 SeqIO.write(record, outputname, "fasta")
+
